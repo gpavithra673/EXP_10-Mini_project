@@ -1,7 +1,12 @@
-# EXP_10-Mini_project
+# EXP-11: Mini_project
+## DATE: 25.10.2024
+## Roll Nmber: 212221240036
 ## AIM:
+
 To create a complete Battleship game with an AI opponent using Monte Carlo Simulation (MCS) for decision-making in Pygame is quite involved. Below is a simplified version of the game, where the AI uses Monte Carlo Simulation to make guesses about the player’s ship locations.
+
 ## Description of game:
+
 ### Game Titel: Battleship with Top Gun
 The player places their ships on a grid.
 The AI tries to guess where the ships are using Monte Carlo Simulation, which means it runs several random simulations to determine the most likely spots for the ships.
@@ -18,6 +23,7 @@ Step 4: Probability Estimation will calculate the likelihood of different outcom
 Step 5: Decision making is done based on the most frequent or highest-scoring outcomes, decisions or predictions are made.
 
 Step 6: The more simulations run, the more accurate the probability estimates become.
+
 ## Program: 
 ```
 import pygame
